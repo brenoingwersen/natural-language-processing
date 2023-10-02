@@ -13,3 +13,8 @@ Custom Data Collator based on the original [facebook/BART article](https://arxiv
 - [LinkedIn job posts summarization](https://github.com/brenoingwersen/natural-language-processing/blob/main/linkedin-jobs-summarization-bart.ipynb)\
 *Date Created: Oct-2023*\
 Attempting to summarize LinkedIn jobs' descriptions to its respective titles using the [LinkedIn dataset](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings) using the transformer encoder-decoder pretrained [model BART](https://arxiv.org/abs/1910.13461).
+
+## Testing stuff
+- [Bag of Words](https://github.com/brenoingwersen/natural-language-processing/blob/main/simple-bow-classifier.ipynb)\
+*Date Created: Dec-2022*\
+First contact with NLP: Testing a simple linear SVC (SVM with 'linear' kernel) classifier with BoW (Bag of words) and Spacy's word vectors.
