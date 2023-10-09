@@ -22,3 +22,7 @@ First contact with NLP: Testing a simple linear SVC (SVM with 'linear' kernel) c
 
 ## Interesting Links
 - [Natural Language Processing Tutorials - Github](https://github.com/ujjwalkarn/Machine-Learning-Tutorials#nlp)
+
+## Free NLP Courses <img width=30 src="https://github.com/brenoingwersen/natural-language-processing/assets/58577881/213c7080-818b-48f8-a4d1-1722d86b6af5" style="vertical-align:middle">
+- [Efficient Deep Learning Models in Production](https://www.youtube.com/watch?v=rCFvPEQTxKI)\
+Course offered by MIT HAN Lab about methods to reduce computational costs of deeplearning models on production stage.
