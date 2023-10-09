@@ -19,3 +19,6 @@ Note: unfortunately due to low resources the finetune couldn't be run even with 
 - [Bag of Words](https://github.com/brenoingwersen/natural-language-processing/blob/main/simple-bow-classifier.ipynb)\
 *Date Created: Dec-2022*\
 First contact with NLP: Testing a simple linear SVC (SVM with 'linear' kernel) classifier with BoW (Bag of words) and Spacy's word vectors.
+
+## Interesting Links
+- [Natural Language Processing Tutorials - Github](https://github.com/ujjwalkarn/Machine-Learning-Tutorials#nlp)
