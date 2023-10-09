@@ -16,6 +16,10 @@ Attempting to summarize LinkedIn jobs' descriptions to its respective titles usi
 Note: unfortunately due to low resources the finetune couldn't be run even with hyperparameters tunning such as *batch size*, *max sequence length* and *gradient accumulation*.
 
 ## Testing stuff
+- [Recurrent Neural Nets from scratch](https://github.com/brenoingwersen/natural-language-processing/blob/main/RNN_from_scratch.ipynb)\
+*Date Created: Oct-2023*\
+Based on the book by Jeremy Howard - [Deep Learning for Coders with FastAI and PyTorch ([Book Link](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)). This is a test notebook to implement RNNs from scratch using PyTorch components to create basic language models that predict the next token of a sequence based on the provided context. Nothing fancy.
+
 - [Bag of Words](https://github.com/brenoingwersen/natural-language-processing/blob/main/simple-bow-classifier.ipynb)\
 *Date Created: Dec-2022*\
 First contact with NLP: Testing a simple linear SVC (SVM with 'linear' kernel) classifier with BoW (Bag of words) and Spacy's word vectors.
