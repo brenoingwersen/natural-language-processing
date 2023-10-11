@@ -2,6 +2,16 @@
 This is a repo with some small projects on Natural Language Processing using Python.
 
 ## Featured Notebooks
+
+- [LinkedIn job posts summarization](https://github.com/brenoingwersen/natural-language-processing/blob/main/linkedin-jobs-summarization-bart.ipynb)\
+*Date Created: Oct-2023*\
+Fine-tune [BART-Base](https://arxiv.org/abs/1910.13461) for sumarization task using the [LinkedIn dataset](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings).\
+The objective of this notebook is to fine-tune the *encoder-decoder* model **BART** to generate the jobs' titles based on their description. Some key features of this notebook include:
+  - Preprocessing of job titles (missing values, duplicates and handling of special characters)
+  - Quick EDA (char and word counts)
+  - Training using **mixed precision fp16** and **8-bit Adam optimizer** to optimize GPU memory consumption and training time.
+  - Evaluation with **ROUGE** metric.
+
 - [Sentiment Analysis RoBERTa vs VADER](https://github.com/brenoingwersen/natural-language-processing/blob/main/amazon-reviews-roberta-vader.ipynb)\
 *Date Created: Jan-2023*\
 Comparisson on Amazon reviews between NLTK VADER and Twitter-RoBERTa-sentiment.
@@ -9,11 +19,6 @@ Comparisson on Amazon reviews between NLTK VADER and Twitter-RoBERTa-sentiment.
 - [BART infilling masking scheme](https://github.com/brenoingwersen/natural-language-processing/blob/main/DataCollatorForInfillingMask.ipynb)\
 *Date Created: Sep-2023*\
 Custom Data Collator based on the original [facebook/BART article](https://arxiv.org/pdf/1910.13461.pdf).
-
-- [LinkedIn job posts summarization](https://github.com/brenoingwersen/natural-language-processing/blob/main/linkedin-jobs-summarization-bart.ipynb)\
-*Date Created: Oct-2023*\
-Attempting to summarize LinkedIn jobs' descriptions to its respective titles using the [LinkedIn dataset](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings) using the transformer encoder-decoder pretrained [model BART](https://arxiv.org/abs/1910.13461).\
-Note: unfortunately due to low resources the finetune couldn't be run even with hyperparameters tunning such as *batch size*, *max sequence length* and *gradient accumulation*.
 
 ## Testing stuff
 - [Recurrent Neural Nets from scratch](https://github.com/brenoingwersen/natural-language-processing/blob/main/RNN_from_scratch.ipynb)\
