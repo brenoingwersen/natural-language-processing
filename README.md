@@ -2,6 +2,11 @@
 This is a repo with some small projects on Natural Language Processing using Python.
 
 ## Featured Notebooks
+- [Making Transformers Efficient in Production](https://github.com/brenoingwersen/natural-language-processing/blob/main/efficient-transformers-clinc150.ipynb)\
+*Date Created: Oct-2023*\
+Fine-tune BERT for a multiclass classification problem using the [Clinc150 dataset](https://www.kaggle.com/datasets/hongtrung/clinc150-dataset). The objective of this notebook is to fine-tune the BERT model with a classification head and further improving the model performance by applying techniques:
+  - **Knowledge distillation**.
+  - **Model quantization**.
 
 - [LinkedIn job posts summarization](https://github.com/brenoingwersen/natural-language-processing/blob/main/linkedin-jobs-summarization-bart.ipynb)\
 *Date Created: Oct-2023*\
